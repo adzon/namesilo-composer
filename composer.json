@@ -1,0 +1,27 @@
+{
+    "name": "adzon/namesilo-composer",
+    "homepage": "https://github.com/adzon/namesilo-composer",
+    "description": "Use Namesilo Api In Laravel",
+    "keywords": ["namesilo","laravel","api"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Afilter Tracker",
+            "homepage": "https://afiltertracker.com"
+        }
+    ],
+    "support": {
+        "forum": "https://bid.actor",
+        "issues": "https://github.com/adzon/namesilo-composer/issues"
+    },
+    "require": {
+        "php": ">=7",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adzon\\": "src/"
+        }
+    }
+}
