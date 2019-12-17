@@ -259,7 +259,7 @@ class Namesilo{
             echo '</pre>';
         }
         if(!$this->request_successp($result)){
-            throw new Exception($result['reply']['detail']);
+            throw new \Exception($result['reply']['detail']);
         }
         return $result;
     }
